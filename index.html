@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite Things Using Arrays</title>
+  </head>
+    <body>
+      <div class="container">
+        <h1>What are some of your favorite things?</h1>
+        <h2>Fill out the form below!</h2>
+        <form id="questions">
+          <div class="form-group">
+            <label for="things1">Enter your favorite thing</label>
+            <input id="things1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="things2">Enter another one of your favorite thing</label>
+            <input id="things2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="things3">Enter yet another favorite thing</label>
+            <input id="things3" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="things4">Yes, you got it. Another!</label>
+            <input id="things4" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="things5">One last thing.</label>
+            <input id="things5" class="form-control" type="text">
+          </div>
+          <button type="submit" name="button">submit</button>
+        </form>
+        <div id="answerArea">
+          <h1>These are your answers <span id="display"></span></h1>
+          <h1>These are our favs of your answers:</h1>
+          <ul>
+            <li id="elementZero"></li>
+            <li id="elementOne"></li>
+            <li id="elementTwo"></li>
+          </ul>
+        </div>
+      </div>
+    </body>
+</html>
